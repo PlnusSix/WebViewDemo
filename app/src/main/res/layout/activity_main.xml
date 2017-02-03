@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kankan.androidchatwithh5demo.MainActivity">
+
+    <WebView
+        android:id="@+id/webView_assets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/enter_Url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cccccc"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="进入url网址"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/enter_UrlWithClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="#cccccc"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="进入url网址WithClient"
+        android:textAllCaps="false" />
+
+    <WebView
+        android:id="@+id/webViewWithClient"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <Button
+        android:id="@+id/turnToAnotherDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="turnToAnotherDemo"
+        android:textAllCaps="false" />
+</LinearLayout>
